@@ -1,0 +1,47 @@
+/*css works  in cascade. it reads last one i.e green. but we will keep just one color and will not write like below*/
+h1{
+	color: blue;
+	color: red;
+	color: green;
+}
+
+h3{
+	font-size: 50px;
+}
+
+.head1{
+	background-color: gray;
+}
+
+.border_black{
+	border: 5px solid blue;
+}
+#head1{
+font-size: 50px;
+}
+
+.box{
+	width: 100px;
+	height: 5rem;
+	background-color: rgba(34, 64, 34, .5);
+}
+
+.red{
+	background-color: red;
+	padding: 50px 100px;
+	border: 10px solid blue;
+	margin: 30px;
+
+}
+
+.green{
+	background-color: green;
+	margin: 50px 100px 150px 200px;
+}
+/* margin: 50px; top bottom left right
+margin: 50px 100px;  top-bottom, left-right
+margin:  50px 100px 150px; top, left-right, bottom
+margin:  50px 100px 150px 200px; counter clock wise i.e top-right-bottom-left
+
+same goes for padding
+     */
